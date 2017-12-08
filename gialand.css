@@ -1,6 +1,6 @@
 .menu{
     height: 80px;
-    background-color: #18bc9c;
+    background-color: #20e7ee;
     font-weight: 700;
     font-family: Montserrat;
     text-transform: uppercase;
@@ -13,6 +13,7 @@
 .header{
     height: 600px;
     background-color: #e778de;
+    font-family: Montserrat;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -22,15 +23,25 @@
 #logo{
     height: 180px;
     border-radius: 50%;
-    text-align: center;
+    margin: 0 auto;
 }
-
 
 .portfolio{
     height: 700px;
     background-color: #8099eb;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+h2{
+    display: block;
+    margin: 0 auto;
+}
+
+
 .about{
     height: 400px;
-    background-color: #18bc9c;
+    background-color: #20e7ee;
 }
