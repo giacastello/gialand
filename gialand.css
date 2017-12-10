@@ -69,6 +69,11 @@ h1, h2, p {
    font-family: Montserrat;
 }
 
+.link a:hover{
+    color: #e778de;
+}
+
+
 
 .about{
     height: 400px;
