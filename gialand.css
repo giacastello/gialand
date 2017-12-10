@@ -27,7 +27,7 @@
 
 
 .portfolio{
-    height: 700px;
+    height: 600px;
     background-color: #8099eb;
     font-family: Montserrat;
     display: flex;
@@ -71,6 +71,7 @@ h1, h2, p {
 
 .link a:hover{
     color: #e778de;
+    text-decoration: none;
 }
 
 
