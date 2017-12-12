@@ -2,6 +2,7 @@
     align-items: center;
 }
 
+
 .menu{
     height: 70px;
     width: 100%;
@@ -27,6 +28,15 @@
     justify-content: space-evenly;
 }
 
+#logo{
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
 .portfolio{
     height: 600px;
     background-color: #8099eb;
@@ -50,14 +60,7 @@ justify-content: space-around;
 
 /* Style the Image Used to Trigger the Modal */
 
-.img {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.img:hover {
-    opacity: 0.3;
-}
+
 
 .container{
     max-width: 700px;
@@ -70,6 +73,12 @@ justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.img:hover {
+    opacity: 0.3;
 }
 
 
@@ -98,10 +107,10 @@ h1, h2, p {
     justify-content: space-evenly;
 }
 
+
 .contact{
     height: 400px;
     background-color: #e778de;
-    background-image: assets/funpeople.gif;
     font-family: Montserrat;
     display: flex;
     flex-direction: column;
@@ -113,6 +122,10 @@ h1, h2, p {
     background-color: #8099eb;
 }
 
-.a2a_kit a2a_kit_size_50 a2a_default_style a2a_follow{
-align-items: center;
+#redesdiv{
+    display: flex; 
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
