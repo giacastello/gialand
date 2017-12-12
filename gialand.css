@@ -64,7 +64,7 @@ justify-content: space-around;
 .img{
     height: 180px;
     border-radius: 50%;
-    display: block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -72,18 +72,71 @@ justify-content: space-around;
     transition: 0.3s;
 }
 
+
+/*
 .img:hover {
-    opacity: 0.3;
+    opacity: 0.3; 
 }
 
-#wrapper .imgText {
-    position:relative;
-    visibility: hidden;
-    }
-    
-    #wrapper:hover .imgText {
-    visibility:visible;
-    }
+.img:hover span.imgText {
+    position:relative;    
+    display: block;
+    z-index: 1000;
+}
+
+span.imgText {
+    display: none;
+}
+*/
+
+
+
+#info{
+    position: absolute;
+    overflow: hidden;
+    -webkit-transition:opacity 0.2s; opacity: 0; 
+    position: absolute;
+    overflow: hidden;
+    -webkit-transition: opacity: 0.2s; opacity: 0;
+}
+
+
+
+#img01 {
+    background-image: url('assets/blackwhite2.gif');
+}
+
+.imgText a{
+    text-decoration: none;
+    color:#1E4E28 ; 
+}
+
+#imagen:hover{
+    opacity: 0.3; 
+}
+
+.imgText{
+    margin:auto;
+    text-align: center;
+    -webkit-transition:margin 0.3s;
+    margin-top: 10.750em;
+     font-size: 1.5em;
+     color:white;
+   
+}
+
+#imagen:hover .imgText{
+    margin-top: 9em;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+
+
+
+
+
+
+
 
 h1{
     font-size: 45px; // /* Doesnt work, dif in inspect*/
@@ -94,12 +147,11 @@ h1, h2, p {
    font-family: Montserrat;
 }
 
+
 .link a:hover{
     color: #e778de;
     text-decoration: none;
 }
-
-
 
 .about{
     height: 400px;
@@ -139,4 +191,15 @@ h1, h2, p {
     .portfolio{
         height: 1300px;
     }
+}
+
+
+/* FLIPBOOK*/
+.flipbook{
+    width:800px;
+    height:600px;
+}
+.flipbook .page{
+    width:400px;
+    height:600px;
 }
