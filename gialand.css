@@ -76,16 +76,20 @@ justify-content: space-around;
     opacity: 0.3; 
 }
 
-.relative { // Esta ocupando un espacio. Eje z al igual que los demas divs de la pagina.
+.relative { /* Esta ocupando un espacio. Eje z al igual que los demas divs de la pagina.*/
     position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-.absoluteP { //le cambiamos el eje z. Esto se va a posicionar en bottom 0, left0. Siempre vamos a ponerle porcentajes.
+.absoluteP { /*le cambiamos el eje z. Esto se va a posicionar en bottom 0, left0. Siempre vamos a ponerle porcentajes.*/
     position: absolute;
     z-index: 10;
     display:none;
+    font-size: 23px;
 }
 
-.relative:hover .absoluteP { // cuando hago hvr a rel, displays abs
+.relative:hover .absoluteP { /*cuando hago hvr a rel, displays abs*/
     display: block;
 }
 
@@ -98,6 +102,7 @@ h1, h2, p {
    text-align: center;
    font-family: Montserrat;
 }
+
 
 
 .link a:hover{
@@ -194,7 +199,7 @@ h1, h2, p {
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: #ccc;
+    color: rgb(29, 26, 26);
     padding: 10px 0;
     height: 150px;
 }
@@ -230,7 +235,7 @@ h1, h2, p {
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: rgb(44, 42, 42);
     text-decoration: none;
     cursor: pointer;
 }
